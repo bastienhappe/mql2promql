@@ -238,7 +238,7 @@ Convert this Monitoring Query Language (MQL) query to PromQL:\n\n{mql_query}\n\n
         logger.info(f"Prompt: {prompt}")
 
         response = client.models.generate_content(
-            model='gemini-exp-1206',
+            model='gemini-2.0-pro-exp-02-05',
             # gemini-exp-1206 <- SOTA? https://huggingface.co/spaces/lmarena-ai/chatbot-arena-leaderboard
             # gemini-2.0-flash-thinking-exp-1219
             # gemini-2.0-pro -> NOT FOUND YET
